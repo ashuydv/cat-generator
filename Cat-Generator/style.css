@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    background: #f6f6f6;
+    width: 100%;
+}
+
+button {
+    font-size: 1rem;
+    background: none;
+    border: 1px solid black;
+    padding: 4px 9px;
+    outline: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background: black;
+}
+
+.cat-generator {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.cat-generator img {
+    margin: 1rem;
+}
